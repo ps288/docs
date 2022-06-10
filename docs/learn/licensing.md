@@ -15,41 +15,26 @@ Everyone. All use of kdb+ is governed by a license.
 
 64-bit installations require a **license key file**: `k4.lic` or `kc.lic`.
 
-:fontawesome-regular-hand-point-right: [Licenses](https://kx.com/connect-with-us/licenses/) at kx.com
+<!-- :fontawesome-regular-hand-point-right: [Licenses](https://kx.com/connect-with-us/licenses/) at kx.com -->
 
 
-### Free, non-commercial, 64-bit kdb+ on demand
+=== "Non-commercial use"
 
-Free 64-bit kdb+ On-Demand Personal Edition is for personal, non-commercial use. 
-Currently, it may be used on up to 2 computers, and up to a maximum of 16 cores per computer, but is not licensed for use on any cloud – only on personal computers. 
-It may not be used for any commercial purposes.
-See the [full terms and conditions](https://ondemand.kx.com/). 
+    Free 64-bit kdb+ On-Demand Personal Edition is for personal, non-commercial use. 
+    Currently, it may be used on up to 2 computers, and up to a maximum of 16 cores per computer, but is not licensed for use on any cloud – only on personal computers. 
+    It may not be used for any commercial purposes.
+    See the [full terms and conditions](https://kx.com/developers/download-licenses/). 
 
-It requires a `kc.lic` license key file and an always-on internet connection to operate.
-
-
-### Free, non-commercial, 32-bit kdb+
-
-Use of the free, non-commercial, 32-bit kdb+ distribution, is governed by the [32-bit terms and conditions](https://kx.com/download/). 
-
-No license key file is required.
-When you start kdb+ the banner shows your license has no expiry date.
-
-```q
-KDB+ 3.6 2018.07.30 Copyright (C) 1993-2018 Kx Systems
-m32/ 4()core 8192MB sjt mint.local 192.168.0.39 NONEXPIRE
-
-Welcome to kdb+ 32bit edition
-```
+    It requires a `kc.lic` license key file and an always-on internet connection to operate.
 
 
-### Commercial kdb+
+=== "Commercial use"
 
-Use of commercial kdb+ is covered by your license agreement with KX.
+    Use of commercial kdb+ is covered by your license agreement with KX.
 
-Your copy of kdb+ will need access to a valid license key file.
+    Your copy of kdb+ will need access to a valid license key file.
 
-If you wish to begin using kdb+ commercially, please contact sales@kx.com.
+    If you wish to begin using kdb+ commercially, please contact sales@kx.com.
 
 
 ## License key files
@@ -77,11 +62,7 @@ If both are found, the `kc.lic` file is used.
 
 License key files (`kc.lic`) are distributed by email. 
 
-<button class="material-button" type="button">
-    <a href="https://ondemand.kx.com/" style="color: white">
-        Request an On-Demand license key file
-    </a>
-</button>
+:fontawesome-solid-hand-point-right: [Request an On-Demand license key file](https://ondemand.kx.com/)
 
 
 ### Commercial

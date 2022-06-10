@@ -7,6 +7,8 @@ author: Stephen Taylor
 
 
 
+!!! warning "Only commercial licenses allow installing kdb+ on a cloud server."
+
 In this scenario you [install](../learn/install.md) kdb+ on a [DigitalOcean](https://www.digitalocean.com/) ‘droplet’ (cloud server) running Ubuntu. 
 Kdb+ tasks on the droplet will be able to offer services over the Net.
 
@@ -15,8 +17,6 @@ You access and control the droplet via SSH and Bash.
 Your droplet is identified by an IP address.
 For this tutorial we suppose you have listed the droplet’s IP address in your local hosts file as `droplet.dev`. 
 (If not, in the following replace `droplet.dev` with the IP address.)
-
-!!! info "Only commercial and 32-bit kdb+ are licensed for use on cloud servers. "
 
 This tutorial supposes you 
 

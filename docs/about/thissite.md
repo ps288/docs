@@ -58,7 +58,7 @@ For example, read :fontawesome-brands-github: `KxSystems/kdb` as `https://github
 
 ## :fontawesome-regular-handshake: Contribute
 
-> A finished work is exactly that, requires resurrection.
+> A finished work is exactly that, requires resurrection.<br>
 — _John Cage_, “Lecture on Nothing”, 1949
 
 The repository for this site is
@@ -76,16 +76,19 @@ We gratefully acknowledge pull requests from
 Alexander Belopolsky            James Hanna
 Aleks Bunin                     Jason Quinn
 Angus Wilson                    kylenarocroc
-Andrew in New York              Mohammad Noor
+Andrew in New York              Letian Wang
+Alex Shroyer                    Mohammad Noor
+Bob Herrmann                    ps288
 Chris Shucksmith                Sean Keevey
 Cillian Reilly                  Sean O’Hagan
 Conor McCarthy                  Rian O’Cuinneagain
 David Crossey                   Rikesh
-David Z. Han                    Thomas Smyth
-Deanna Morgan                   Sergey Vidyuk
-Diane O’Donoghue                Simon Shanks
+David Lu                        Thomas Smyth
+David Z. Han                    Sergey Vidyuk
+Deanna Morgan                   Simon Shanks
+Diane O’Donoghue                Simon Watson
 Esperanza Lopez Aguilera        Vincent Bernardoff
-Geo Carncross                   William Da Silva
+Geo Carncross                   William Da Silva 
 Ian O’Dwyer                     
 ```
 

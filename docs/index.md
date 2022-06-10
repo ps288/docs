@@ -25,19 +25,19 @@ Kdb+, from [KX](https://kx.com), is
 -   an expressive query and programming language called q
 </div>
 
+<style>#kx-whats-new p {white-space: nowrap}</style>
 <div id="kx-whats-new" style="display: inline-flex; margin-left: 25px; width: 250px;" markdown="1">
 !!! tip "New"
 
-    :fontawesome-brands-rust: [Rust interface](https://docs.rs/kdbplus/0.1.4/kdbplus/)
+    :fontawesome-regular-map: [Surveillance in the Cloud](wp/surv-cloud/index.md)
 
-    :fontawesome-brands-github: [q-fmt](https://github.com/gitrj95/q-fmt),
-    [q-memo](https://github.com/gitrj95/q-memo)
+    :fontawesome-brands-github: [Go interface](https://github.com/jshinonome/geek)
 
-    :fontawesome-solid-cloud: [AWS architecture](cloud/aws/index.md)
+    :fontawesome-brands-github: [gRPC interface](https://github.com/diamondrod/qrpc)
 
-    :fontawesome-regular-map: [IoT with MQTT](wp/iot-mqtt/index.md)
+    :fontawesome-brands-github: [COMTRADE file parser](https://github.com/diamondrod/q_comtrade)
 
-    :fontawesome-regular-map: [Interprocess comms](wp/ipc/index.md)
+    :fontawesome-brands-github: [IntelliJ IDEA plugin](https://github.com/kdbinsidebrains/plugin)
 
 </div>
 
@@ -47,6 +47,7 @@ Kdb+, from [KX](https://kx.com), is
 
 <div id="kx-home-page-grid" markdown="1">
 
+<style>#kx-get-started a {color: white}</style>
 [Get started](learn/install.md)
 {: #kx-get-started .md-button}
 
@@ -100,14 +101,14 @@ IDE: KX Developer](/developer/ "Download and install the free IDE, KX Developer"
 
     **Seamus Keating**
     <br>
-    CEO, First Derivatives plc
+    CEO, FD technologies plc
 
 :fontawesome-solid-globe:
-[Careers at KX and First Derivatives](http://www.firstderivatives.com/careers/)
+[Careers at KX and FD Technologies](http://www.firstderivatives.com/careers/)
 
 ---
 :fontawesome-solid-download:
-[Download](https://code.kx.com/download/site.zip "60MB") a copy of this site you can run from your filesystem
+[Download](https://code.kx.com/download/q.zip "60MB") a copy of this site you can run from an isolated webserver
 
 The source code for this site is on GitHub at
 :fontawesome-brands-github:

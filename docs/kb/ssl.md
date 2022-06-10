@@ -17,11 +17,22 @@ Ensure that your OS has the latest OpenSSL libraries installed, and that they ar
 
 Kdb+ loads the following files
 
--   Windows: `ssleay32.dll`, `libeay32.dll`
--   macOS: `libssl.dylib`
--   Linux, Solaris: `libssl.so`
+=== ":fontawesome-brands-linux: Linux, Solaris"
 
-The Windows build was tested with the precompiled libs (Win32 OpenSSL v1.0.2h Light, Win64 OpenSSL v1.0.2h Light) from <https://slproweb.com/products/Win32OpenSSL.html>
+    `libssl.so`
+
+=== ":fontawesome-brands-apple: macOS" 
+
+    `libssl.dylib`
+
+=== ":fontawesome-brands-windows: Windows"
+    
+    ```txt
+    libssl-1_1-x64.dll   libcrypto-1_1-x64.dll    w64 build
+    libssl-1_1.dll       libcrypto-1_1.dll        w32 build
+    ```
+
+The Windows build was tested with the precompiled libs [Win32 OpenSSL v1.1.1L Light, Win64 OpenSSL v1.1.1L Light](https://slproweb.com/products/Win32OpenSSL.html).
 
 
 ## Certificates
@@ -76,6 +87,9 @@ openssl rsa -in client-key.pem -out client-key.pem
 openssl x509 -req -in client-req.pem -days 3600 -CA ca.pem -CAkey ca-key.pem \
     -set_serial 01 -out client-crt.pem -extensions usr_cert
 ```
+
+:fontawesome-brands-github:
+[mkcert](https://github.com/FiloSottile/mkcert) is a simple tool for making locally-trusted development certificates.
 
 !!! warning "Secure your certificates"
 
@@ -173,7 +187,7 @@ $ export SSL_VERIFY_SERVER=NO
 To allow verification of certificates which were not issued by you, you can import the CA bundle from reputable sources, e.g.
 
 ```bash
-$ curl https://curl.haxx.se/ca/cacert.pem > $HOME/certs/cabundle.pem
+$ curl https://curl.se/ca/cacert.pem > $HOME/certs/cabundle.pem
 $ export SSL_CA_CERT_FILE=$HOME/certs/cabundle.pem
 ```
 
